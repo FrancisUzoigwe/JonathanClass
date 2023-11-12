@@ -25,7 +25,7 @@ const Sider = () => {
             onToggle();
           }}
         >
-          {state ? (
+          {!state ? (
             <GiHamburgerMenu
               className="text-2xl hover:cursor-pointer hover:scale-125 duration-500 transition-all "
               onClick={() => {
